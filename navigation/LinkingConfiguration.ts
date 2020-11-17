@@ -4,16 +4,55 @@ export default {
   prefixes: [Linking.makeUrl('/')],
   config: {
     screens: {
-      Root: {
+      Auth: {
         screens: {
-          TabOne: {
+          Login: {
             screens: {
-              TabOneScreen: 'one',
+              Login: 'login',
             },
           },
-          TabTwo: {
+          SingUp: {
             screens: {
-              TabTwoScreen: 'two',
+              Singup: 'singup'
+            },
+          },
+          CreateProfile: {
+            screens: {
+              CreateProfile: 'createprofile'
+            },
+          },
+          ForgotPassword: {
+            screens: {
+              ForgotPassword: 'forgot-password'
+            },
+          },
+          ResetPassword: {
+            screens: {
+              ResetPassword: 'reset-password'
+            },
+          },
+        },
+      },
+      Menu: {
+        screens: {
+          Home: {
+            screens: {
+              Home: 'home',
+            },
+          },
+          Explore: {
+            screens: {
+              Explore: 'explore',
+            },
+          },
+          Chalendar: {
+            screens: {
+              Chalendar: 'chalendar',
+            },
+          },
+          Profile: {
+            screens: {
+              Profile: 'profile',
             },
           },
         },
